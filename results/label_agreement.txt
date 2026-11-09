@@ -1,0 +1,20 @@
+Hand-labeled pages: 50 (top-scored 25, random 25)
+Hand labels: {'y': 25, 'n': 14, 'unclear': 11}
+Kinds among y: {'implicit': 19, 'explicit': 6}
+
+Cross-tab, authors' label (relay vs other) x hand label:
+mine             n  unclear   y  All
+authors_relay                       
+authors: other  12       10   9   31
+authors: relay   2        1  16   19
+All             14       11  25   50
+
+Agreement on decided pages (unclear dropped): 28/39 = 72% (95% Wilson 56%-83%)
+  hand 'y' among authors' relay pages: 16/18 = 89% (95% 67%-97%)
+  hand 'y' among authors' other pages: 9/21 = 43% (95% 24%-63%)
+
+T1 detector precision (share of pages that are coordination):
+  top_scored by authors' relay                  : 16/25 = 64% (95% 45%-80%)
+  top_scored by hand y (unclear counted as not) : 21/25 = 84% (95% 65%-94%)
+  random     by authors' relay                  : 3/25 = 12% (95% 4%-30%)
+  random     by hand y (unclear counted as not) : 4/25 = 16% (95% 6%-35%)

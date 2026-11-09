@@ -1,0 +1,14 @@
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/src/
+!/results/
+!/figures/
+!/data/
+/data/*
+!/data/processed/
+/data/processed/*
+!/data/processed/label_check.csv
+__pycache__/
+/src/build_report.py
